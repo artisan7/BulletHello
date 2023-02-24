@@ -1,5 +1,5 @@
 name: GitHub Commit To Trello Comment
-
+run-name: ${{ github.event_name }} attaching to Trello by @${{ github.actor }}
 on: [push, pull_request]
 
 jobs:
