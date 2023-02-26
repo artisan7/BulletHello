@@ -44,11 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f8612d51d76225418faa085d8f98743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackInterval: 1
-  bulletPrefab: {fileID: 2099473080207806883, guid: 12bec1b8e9984034ebc1a5e7ef6afea3, type: 3}
-  bulletDamage: 2
-  bulletSpeed: 10
-  bulletLifetime: 3
 --- !u!1 &8052928729126686681
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,4 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f652c61dbb59e340bdbdbaf90433203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  unit: {fileID: 11400000, guid: d28efae0e56f43a419ee42db6fdccca0, type: 2}
+  muzzles:
+  - {fileID: 6617832428913839911}
