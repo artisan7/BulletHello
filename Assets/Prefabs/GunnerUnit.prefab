@@ -181,6 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f652c61dbb59e340bdbdbaf90433203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unit: {fileID: 11400000, guid: d28efae0e56f43a419ee42db6fdccca0, type: 2}
-  muzzles:
+  <BaseStats>k__BackingField: {fileID: 11400000, guid: d28efae0e56f43a419ee42db6fdccca0, type: 2}
+  <Muzzles>k__BackingField:
   - {fileID: 6617832428913839911}

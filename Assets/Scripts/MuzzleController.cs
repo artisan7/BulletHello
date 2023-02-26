@@ -20,11 +20,21 @@ public class MuzzleController : MonoBehaviour
         BulletSpeed = bulletSpeed;
         BulletLifetime = bulletLifetime;
 
+        StartShooting();
+    }
+
+    public void StartShooting()
+    {
         if (!isShooting)
         {
             isShooting = true;
             StartCoroutine(Shoot());
         }
+    }
+
+    public void StopShooting()
+    {
+        StopAllCoroutines();
     }
 
     public IEnumerator Shoot()
